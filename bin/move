@@ -13,4 +13,4 @@ index = input_to_index(input)
 
 new_board = move(board, index)
 
-display_board(board)
+display_board(new_board)
