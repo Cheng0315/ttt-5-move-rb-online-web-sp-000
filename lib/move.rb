@@ -15,6 +15,5 @@ def input_to_index(num)
 end
 
 def move(board, idx, char = O)
-  board[idx] = char
-  display_board(board)
+
 end
