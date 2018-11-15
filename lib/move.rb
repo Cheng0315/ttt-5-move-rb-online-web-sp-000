@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(num)
-  if num.to_i == true
+  if num.to_i == 5
     num.to_i - 1
   else
     -1
