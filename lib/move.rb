@@ -14,7 +14,7 @@ def input_to_index(num)
   end
 end
 
-def move(board, idx, char)
+def move(board, idx, char = O)
   board[idx] = char
   display_board(board)
 end
