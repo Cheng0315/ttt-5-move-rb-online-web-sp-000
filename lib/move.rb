@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 def input_to_index(num)
-  if Integer(num) == true
-    Integer(num) - 1
+  if num.to_i == true
+    num.to_i - 1
   else
     -1
   end
