@@ -8,7 +8,7 @@ end
 
 def input_to_index(num)
   if Integer(num) == true
-    Integer(num)
+    Integer(num) - 1
   else
     -1
   end
