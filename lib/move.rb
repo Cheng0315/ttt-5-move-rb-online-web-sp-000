@@ -7,7 +7,11 @@ def display_board(board)
 end
 
 def input_to_index(num)
-  Integer(num) - 1
+  if integer(num) == true
+    integer(num)
+  else 
+    -1
+  end
 end
 
 def move(board, idx, char)
