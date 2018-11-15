@@ -14,6 +14,6 @@ def input_to_index(num)
   end
 end
 
-def move(board, idx, char = O)
+def move(board, idx, char = 'O')
 
 end
